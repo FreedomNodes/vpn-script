@@ -1,1 +1,1 @@
-(()=>{(()=>{var t={};function e(r){const{isSurge:o}=$substore.env;return o?r.map(n=>(n["underlying-proxy"]="\u26D3\uFE0F Proxy Chain",n)):r}window.operator=e})();})();
+(()=>{(()=>{"use strict";var u={};function n(r){const{isSurge:t}=$substore.env;return t?r.map(e=>(e["underlying-proxy"]="\u26D3\uFE0F Proxy Chain",e)):r}window.operator=n})();})();
