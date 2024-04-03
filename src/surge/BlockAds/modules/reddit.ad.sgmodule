@@ -1,7 +1,7 @@
 #!name=Reddit
 #!desc=Reddit removes ads, simple and crude test
 #!system=ios
-#!category=Boost Bandwidth
+#!category=Block Ads
 #!author=Kien Tran
 
 [URL Rewrite]
