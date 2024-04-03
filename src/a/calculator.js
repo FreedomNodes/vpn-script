@@ -1,0 +1,1 @@
+(()=>{(()=>{"use strict";var a={};a.d=(e,r)=>{for(var o in r)a.o(r,o)&&!a.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:r[o]})},a.o=(e,r)=>Object.prototype.hasOwnProperty.call(e,r);var c={};const t=class l{constructor(){}add(r,o){return console.log(`version ${l.version}`),r+o}};t.version="1";let _=null})();})();
