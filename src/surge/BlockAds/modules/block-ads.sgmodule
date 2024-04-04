@@ -2,7 +2,7 @@
 #!desc=Block Advertising for Surge iOS
 #!system=ios
 #!category=Block Ads
-#!author={{user.name}}
+#!author=Kien Tran
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,123.59.31.1,119.18.193.135,122.14.246.33,175.102.178.52
