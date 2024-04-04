@@ -1,7 +1,7 @@
 #!name=Hide VPN Icon
 #!desc=Hide VPN Icon
 #!system=ios
-#!author={{user.name}}
+#!author=Kien Tran
 
 [General]
 hide-vpn-icon = true

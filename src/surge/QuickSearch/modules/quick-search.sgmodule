@@ -1,7 +1,7 @@
 #!name = QuickSearch
 #!desc= Quick Google Search
 #!system=ios
-#!author={{user.name}}
+#!author=Kien Tran
 
 [URL Rewrite]
 # yt  xxx (YouTube)

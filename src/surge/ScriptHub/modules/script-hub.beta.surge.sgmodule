@@ -2,7 +2,7 @@
 #!desc=https://script.hub
 #!requirement=CORE_VERSION>=20 && (SYSTEM = 'iOS' || SYSTEM = 'macOS')
 #!category=Script Hub
-#!author={{user.name}}
+#!author=Kien Tran
 
 [General]
 force-http-engine-hosts = %APPEND% script.hub, *.script.hub
