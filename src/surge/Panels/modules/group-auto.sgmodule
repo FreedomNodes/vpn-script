@@ -2,7 +2,7 @@
 #!desc=Preferred node: (speed: persistent cache) (average delay: persistent cache) returned by httpApi
 #!system=ios
 #!category=Panels
-#!author=Kien Tran
+#!author={{user.name}}
 
 #Function:
 # If the policy group node changes, the result will be re-cached and re-valued.
@@ -30,7 +30,7 @@ GroupAuto = script-name=GroupAuto,update-interval=6
 
 [Script]
 # Panel operation (panel and scheduled tasks can exist at the same time)
-GroupAuto = type=generic,timeout=15,script-path=https://raw.githubusercontent.com/FreedomNodes/vpn-script/main/src/surge/Panels/scripts/pro-group.js, argument=tolerance=10&timecache=18&color=#6699FF&icon=speedometer&group=🎮 XGaming
+GroupAuto = type=generic,timeout=15,script-path={{source.path}}/surge/Panels/scripts/pro-group.js, argument=tolerance=10&timecache=18&color=#6699FF&icon=speedometer&group=🎮 XGaming
 
 # Scheduled automatic operation (optional need to cancel # comment) once every 30 minutes, not running from 2 to 7 o'clock every day
-Cron_GroupAuto = type=cron, cronexp="*/30 0,1,7-23 * * *", timeout=15,wake-system=0,script-path=https://raw.githubusercontent.com/FreedomNodes/vpn-script/main/src/surge/Panels/scripts/pro-group.js, argument=tolerance=10&timecache=18&group=🎮 XGaming
+Cron_GroupAuto = type=cron, cronexp="*/30 0,1,7-23 * * *", timeout=15,wake-system=0,script-path={{source.path}}/surge/Panels/scripts/pro-group.js, argument=tolerance=10&timecache=18&group=🎮 XGaming

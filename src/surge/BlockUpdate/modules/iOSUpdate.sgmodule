@@ -2,7 +2,7 @@
 #!desc=Block iOS/iPadOS system updates
 #!system=ios
 #!category=Apple
-#!author=Kien Tran
+#!author={{user.name}}
 
 [Rule]
 DOMAIN,gdmf.apple.com,REJECT
