@@ -2,7 +2,7 @@
 #!desc=Remove annoying ads from LINE v20240126.04 - MitM over HTTP/2 needs to be enabled
 #!system=ios
 #!category=Block Ads
-#!author=Kien Tran
+#!author={{user.name}}
 
 [Rule]
 URL-REGEX,^https:\/\/a\.line\.me\/er\/lads\/v\d\/ei\?,REJECT-DROP
