@@ -42,4 +42,5 @@ DOMAIN,app.bugsnag.com,REJECT
 DOMAIN,api.bugsnag.com,REJECT
 DOMAIN-SUFFIX,sentry-cdn.com,REJECT
 DOMAIN,google-analytics.com,REJECT
+DOMAIN,collector.github.com,REJECT
 URL-REGEX,(^https:\/\/.+)\/.*(ad|doubleclick).*\.(js|swf|jpg|jpeg|png|gif)$,REJECT
