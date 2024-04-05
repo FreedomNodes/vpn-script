@@ -1,1 +1,1 @@
-(()=>{(()=>{"use strict";var n={};let e=document.createElement("div");e.innerHTML=$response.body;const t=document.getElementById("floating_ads_bottom_textcss_container");e.removeChild(t),$done({body:e.innerHTML})})();})();
+(()=>{(()=>{"use strict";var t={};(()=>{const{body:e}=$response,r=i(e,"module_home_ads");$done({body:r})})();function i(e,r){const o=new DOMParser().parseFromString(e,"text/html");return o.querySelectorAll(`.${r}`).forEach(s=>{for(;s.firstChild;)s.removeChild(s.firstChild)}),new XMLSerializer().serializeToString(o)}})();})();
