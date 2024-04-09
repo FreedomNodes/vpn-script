@@ -22,8 +22,6 @@ RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts
 #RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/adult/surge-rule.conf,REJECT-TINYGIF,update-interval=21600
 RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/gambling/surge-rule.conf,REJECT-TINYGIF,update-interval=21600
 RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/surge-rule.conf,REJECT-TINYGIF,update-interval=21600
-DOMAIN-SET,https://github.com/lonely0811/Surge/raw/main/Rule/DADB.conf,REJECT-DROP,extended-matching
-AND,((OR,((RULE-SET,https://github.com/lonely0811/Surge/raw/main/Rule/SADB.conf)))),REJECT-DROP
 DOMAIN,tracking.rus.miui.com,REJECT
 DOMAIN,affiliationjs.s3.amazonaws.com,REJECT
 DOMAIN,tracking.rus.miui.com,REJECT
