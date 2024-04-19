@@ -1,1 +1,1 @@
-(()=>{(()=>{"use strict";var r={};const e={valid:!0,state:"",os:"ios",expires_date:"2030-01-01",debug:["[trace][firebase] Firebase ID received from cache."]};$done({body:JSON.stringify(e)})})();})();
+(()=>{(()=>{"use strict";var r={};const e={valid:!0,state:!0,os:"ios",expires_date:1902813955,debug:["[trace][firebase] Firebase ID received from cache."]};$done({body:JSON.stringify(e)})})();})();
