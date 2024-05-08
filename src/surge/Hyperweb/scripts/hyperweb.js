@@ -1,5 +1,5 @@
 /*
- fullhash:344ad5fb64a5d7471216, chunkhash:09031a0ecaf9e954256b, file:surge/Hyperweb/scripts/hyperweb.js
+ fullhash:3fc6beca47d10e8cd03d, chunkhash:7945ef7ab48597a54fd1, file:surge/Hyperweb/scripts/hyperweb.js
  author: Kien Tran
  */
 (()=>{(()=>{"use strict";var t={};const e={autoRenewStatus:"0",isActive:!0,expireDateMs:4072897555e3,expirationIntent:"USER_CANCELLED",productId:"ai.laso.ios.HyperWeb.yearly.subscription"};$done({body:JSON.stringify(e)})})();})();
