@@ -1,5 +1,5 @@
 /*
- fullhash:164ad9a81da617ed8b41, chunkhash:a49cc7f67a1ce9136fae, file:surge/BoostBandwidth/scripts/get-speed-test-config.js
+ fullhash:34830ced8dbf84302b85, chunkhash:a49cc7f67a1ce9136fae, file:surge/BoostBandwidth/scripts/get-speed-test-config.js
  author: Kien Tran
  */
 (()=>{(()=>{"use strict";var t={};$done($httpClient.get("https://www.speedtest.net/api/ios-config.php"))})();})();
