@@ -1,5 +1,5 @@
 /*
- fullhash:54dcb26db7c00e800db7, chunkhash:c971a252a0c1e06f47d5, file:surge/Panels/scripts/traffic_statistics.js
+ fullhash:164ad9a81da617ed8b41, chunkhash:c971a252a0c1e06f47d5, file:surge/Panels/scripts/traffic_statistics.js
  author: Kien Tran
  */
 (()=>{(()=>{"use strict";var $={7248:function(){var d=Math.pow,F=(t,o,e)=>new Promise((n,i)=>{var r=s=>{try{c(e.next(s))}catch(l){i(l)}},f=s=>{try{c(e.throw(s))}catch(l){i(l)}},c=s=>s.done?n(s.value):Promise.resolve(s.value).then(r,f);c((e=e.apply(t,o)).next())});const B=E();F(this,null,function*(){const o=(yield S("/v1/traffic")).interface,e=[];for(const u in o)e.push(u);e.includes("lo0")===!0&&_(e,"lo0");let n,i;if($persistentStore.read("NETWORK")==null||e.includes($persistentStore.read("NETWORK"))===!1)i=0;else{n=$persistentStore.read("NETWORK");for(let u=0;u<e.length;++u)n===e[u]&&(i=u)}$trigger==="button"&&(e.length>1&&(i+=1),i>=e.length&&(i=0),$persistentStore.write(e[i],"NETWORK")),n=e[i];const r=o[n],f=a(r.outCurrentSpeed),c=a(r.outMaxSpeed),s=h(r.in),l=h(r.out),M=a(r.inMaxSpeed),m=a(r.inCurrentSpeed);let p;n==="en0"?p="WiFi":p="Cellular",$done({title:`Traffic Statistics | ${p}`,content:`Traffic \u279F \u2B07\uFE0F${s} | \u2B06\uFE0F${l}
