@@ -1,5 +1,5 @@
 /*
- fullhash:3fc6beca47d10e8cd03d, chunkhash:c880e97631479f66ebbf, file:surge/Panels/scripts/ip_check.js
+ fullhash:54dcb26db7c00e800db7, chunkhash:c880e97631479f66ebbf, file:surge/Panels/scripts/ip_check.js
  author: Kien Tran
  */
 (()=>{(()=>{"use strict";var l={};$httpClient.get("http://ip-api.com/json",(n,e,o)=>{const t=JSON.parse(o),{country:c}=t,r=s(t.countryCode),{city:i}=t,{isp:a}=t,p={title:"IP Check",content:`IP: ${t.query}
