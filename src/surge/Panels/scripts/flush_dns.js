@@ -1,5 +1,5 @@
 /*
- fullhash:8078244a1c44f8b1932e, chunkhash:68358b59f138ac12ac3b, file:surge/Panels/scripts/flush_dns.js
+ fullhash:6f33446f5136ee72b221, chunkhash:68358b59f138ac12ac3b, file:surge/Panels/scripts/flush_dns.js
  author: Kien Tran
  */
 (()=>{(()=>{"use strict";var d={7375:function(){var u=(n,i,t)=>new Promise((r,e)=>{var o=l=>{try{c(t.next(l))}catch(a){e(a)}},f=l=>{try{c(t.throw(l))}catch(a){e(a)}},c=l=>l.done?r(l.value):Promise.resolve(l.value).then(o,f);c((t=t.apply(n,i)).next())});u(this,null,function*(){const n={title:"Flush DNS"};let i=!0,t;if(typeof $argument!="undefined"){const e=Object.fromEntries($argument.split("&").map(o=>o.split("=")));e.title&&(n.title=e.title),e.icon&&(n.icon=e.icon),e.color&&(n["icon-color"]=e.color),e.server=="false"&&(i=!1)}i&&(t=(yield s("/v1/dns","GET")).dnsCache,t=[...new Set(t.map(e=>e.server))].toString().replace(/,/g,`
