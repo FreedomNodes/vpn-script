@@ -1,5 +1,5 @@
 /*
- fullhash:5121f66e8d1d33625ec1, chunkhash:4e37224aaf73b99de58b, file:surge/Panels/scripts/sub_info.js
+ fullhash:5704905b46a4c82c6a68, chunkhash:4e37224aaf73b99de58b, file:surge/Panels/scripts/sub_info.js
  author: Kien Tran
  */
 (()=>{(()=>{"use strict";var y={5326:function(){var E=Math.pow,F=(t,e,n)=>new Promise((a,o)=>{var u=i=>{try{s(n.next(i))}catch(c){o(c)}},m=i=>{try{s(n.throw(i))}catch(c){o(c)}},s=i=>i.done?a(i.value):Promise.resolve(i.value).then(u,m);s((n=n.apply(t,e)).next())});const r=B(),$=r.urls.split("|");F(this,null,function*(){const t=[];for(let e=0;e<$.length;e++){const[n,a]=yield v($[e]).then(o=>[null,o]).catch(o=>[o,null]);if(n){console.log(n);continue}t.push(...a)}t.push("\u2500\u2500\u2500\u2500\u2500\u2500 \u22C6\u22C5\u2606\u22C5\u22C6 \u2500\u2500\u2500\u2500\u2500\u2500"),$done({title:`${r.title}`,content:t.join(`
