@@ -1,0 +1,7 @@
+/*!
+ substore-tools - version: 1.6.0
+ Build fullhash:b6507287ed8946945ce5, chunkhash:5b31c5d79c38699b132e (2024-05-14 19:14:53)
+
+ Author: Kien Tran
+*/
+(()=>{(()=>{"use strict";var w={3183:(e,t,r)=>{var _;typeof window!="undefined"?_=window:typeof r.g!="undefined"?_=r.g:typeof self!="undefined"?_=self:_={},e.exports=_},9085:(e,t,r)=>{r.d(t,{G:()=>_});function _(u){return u&&u!=="null"&&u!=="undefined"}function d(u,c){return u.reduce((s,a)=>{const o=a[c];return s[o]||(s[o]=[]),s[o].push(a),s},{})}}},p={};function n(e){var t=p[e];if(t!==void 0)return t.exports;var r=p[e]={exports:{}};return w[e](r,r.exports,n),r.exports}n.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return n.d(t,{a:t}),t},n.d=(e,t)=>{for(var r in t)n.o(t,r)&&!n.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},n.g=function(){if(typeof globalThis=="object")return globalThis;try{return this||new Function("return this")()}catch(e){if(typeof window=="object")return window}}(),n.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var y={};(()=>{var e=n(3183),t=n.n(e),r=n(9085),_=(c,s,a)=>new Promise((o,v)=>{var h=i=>{try{f(a.next(i))}catch(l){v(l)}},b=i=>{try{f(a.throw(i))}catch(l){v(l)}},f=i=>i.done?o(i.value):Promise.resolve(i.value).then(h,b);f((a=a.apply(c,s)).next())});const d=$substore;function u(){return _(this,arguments,function*(c=[],s,a){if(!(0,r.G)(c)||c.length===0){const o=d.read("sub-store-cached-custom-viefast-vip");if(o)return ProxyUtils.parse(o)}return c})}t().operator=u})()})();})();
