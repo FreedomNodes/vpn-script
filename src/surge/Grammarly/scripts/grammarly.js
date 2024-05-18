@@ -1,6 +1,6 @@
 /*!
- Made with ❤️ in Hanoi
- Build fullhash:cf00436a66b9fa5ddea3, chunkhash:afe8d3efdc28785fc467 (2024-05-18 19:21:32)
+ substore-tools - version: 1.8.1
+ Build fullhash:faa08706b95e437d2213, chunkhash:7b85ac929cc2e808c2d3 (2024-05-18 20:18:29)
 
  Author: Kien Tran
 */
