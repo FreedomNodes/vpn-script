@@ -1,6 +1,6 @@
 /*!
  substore-tools - version: 1.8.1
- Build fullhash:b4f7c34e61050c9585f0, chunkhash:3e7a90c42be75656fa33 (2024-05-22 18:06:34)
+ Build fullhash:b4f7c34e61050c9585f0, chunkhash:3e7a90c42be75656fa33 (2024-05-22 18:13:49)
 
  Author: Kien Tran
 */
