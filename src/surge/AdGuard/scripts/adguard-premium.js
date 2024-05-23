@@ -1,7 +1,7 @@
 /*!
  substore-tools - Made with ❤️ in Hanoi
- Build fullhash:b4f7c34e61050c9585f0, chunkhash:9bffc8c6e6823be1195a (2024-05-23 17:58:36)
+ Build fullhash:b4f7c34e61050c9585f0, chunkhash:9bffc8c6e6823be1195a (2024-05-23 18:01:20)
 
  Author: Kien Tran
 */
-(()=>{(()=>{"use strict";var r={};const t={products:[{product_id:"com.adguard.lifetimePurchase",premium_status:"ACTIVE"}]};$done({body:JSON.stringify(t)})})();})();
+function a31_0x367f(_0x42bdbc,_0x4afb89){var _0x2bbdd9=a31_0x2bbd();return a31_0x367f=function(_0x367fc1,_0x4290a3){_0x367fc1=_0x367fc1-0x131;var _0x4db7b7=_0x2bbdd9[_0x367fc1];return _0x4db7b7;},a31_0x367f(_0x42bdbc,_0x4afb89);}function a31_0x2bbd(){var _0x255197=['9105656PkfGJo','2411943BflLMH','1915530MrtXDy','com.adguard.lifetimePurchase','813108SptQMo','24dyTwlc','594268KFZPRZ','3629045LmLZUc','8RWezDv','3433266uLRoLg','ACTIVE'];a31_0x2bbd=function(){return _0x255197;};return a31_0x2bbd();}(function(_0x17e212,_0x2d863a){var _0x574407=a31_0x367f,_0xefa985=_0x17e212();while(!![]){try{var _0x52ab32=-parseInt(_0x574407(0x139))/0x1+-parseInt(_0x574407(0x137))/0x2+-parseInt(_0x574407(0x134))/0x3*(-parseInt(_0x574407(0x13b))/0x4)+parseInt(_0x574407(0x135))/0x5*(parseInt(_0x574407(0x138))/0x6)+-parseInt(_0x574407(0x13a))/0x7+-parseInt(_0x574407(0x133))/0x8+parseInt(_0x574407(0x131))/0x9;if(_0x52ab32===_0x2d863a)break;else _0xefa985['push'](_0xefa985['shift']());}catch(_0x592091){_0xefa985['push'](_0xefa985['shift']());}}}(a31_0x2bbd,0xd308c),((()=>{((()=>{'use strict';var _0x4e0ec8=a31_0x367f;var _0x56ce91={};const _0x211339={'products':[{'product_id':_0x4e0ec8(0x136),'premium_status':_0x4e0ec8(0x132)}]};$done({'body':JSON['stringify'](_0x211339)});})());})()));
