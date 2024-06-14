@@ -1,5 +1,5 @@
-#!name = VNPT
-#!desc = VNPT DNS
+#!name = FPT
+#!desc = FPT DNS
 #!requirement=CORE_VERSION>=20 && (SYSTEM = 'iOS' || SYSTEM = 'macOS')
 #!category=DNS Server
 #!author=Kien Tran
