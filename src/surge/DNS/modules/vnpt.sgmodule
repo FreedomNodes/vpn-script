@@ -1,0 +1,8 @@
+#!name = VNPT
+#!desc = VNPT DNS
+#!requirement=CORE_VERSION>=20 && (SYSTEM = 'iOS' || SYSTEM = 'macOS')
+#!category=DNS Server
+#!author=Kien Tran
+
+[General]
+dns-server = %APPEND% 203.162.4.191, 203.162.4.190
