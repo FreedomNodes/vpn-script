@@ -1,5 +1,5 @@
-#!name = VN Encrypted DNS
-#!desc = Encrypted DNS-over-HTTPS (DoH)
+#!name = Viettel
+#!desc = Viettel DNS
 #!requirement=CORE_VERSION>=20 && (SYSTEM = 'iOS' || SYSTEM = 'macOS')
 #!category=DNS Server
 #!author=Kien Tran
