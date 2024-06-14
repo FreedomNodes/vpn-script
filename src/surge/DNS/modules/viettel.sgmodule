@@ -1,0 +1,8 @@
+#!name = VN Encrypted DNS
+#!desc = Encrypted DNS-over-HTTPS (DoH)
+#!requirement=CORE_VERSION>=20 && (SYSTEM = 'iOS' || SYSTEM = 'macOS')
+#!category=DNS Server
+#!author=Kien Tran
+
+[General]
+dns-server = %APPEND% 203.113.131.1, 203.113.131.2
