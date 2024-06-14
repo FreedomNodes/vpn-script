@@ -1,5 +1,5 @@
-#!name = VN Encrypted DNS
-#!desc = Encrypted DNS-over-HTTPS (DoH)
+#!name = Cloudflare
+#!desc = Cloudflare DNS
 #!requirement=CORE_VERSION>=20 && (SYSTEM = 'iOS' || SYSTEM = 'macOS')
 #!category=DNS Server
 #!author=Kien Tran
